@@ -1,0 +1,45 @@
+#heading
+{
+  text-align: center;
+}
+body
+{
+font-family: Arial;  
+}
+#in
+{
+  text-align: center;
+  color: gray;s
+  height: 25px;
+}
+#add
+{
+  height: 30px;
+  width: 60px;
+  background: rgb(26, 79, 26);
+  border-radius: 5px;
+   
+}
+.button
+{
+  height: 25px;
+  width: 60px;
+  background: rgb(135, 32, 32);
+  border-radius: 5px;
+}
+#todoitemsdisplay
+{
+  /* animation: alternate; */
+display: grid;
+grid-template-columns: 200px 150px 100px;
+column-gap: 5px;
+row-gap: 10px;
+margin-top: 10px;
+}
+#main
+{
+display: grid;
+grid-template-columns: 200px 150px 100px;
+column-gap: 5px;
+row-gap: 5px;
+}
